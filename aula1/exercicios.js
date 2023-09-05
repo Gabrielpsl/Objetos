@@ -19,8 +19,8 @@ pessoa.cpf = String(pessoa.cpf).substring(0,4)
 
 const chaves = ["nome","dataNascimento","carteiraIndentidade","email","telefone","cidade","estado","cpf","seguroSocial",]
 
-chaves.forEach((chave)=>{
-    console.log(`a chave ${chave} tem valor ${pessoa[chave]}`)
+chaves.forEach((item)=>{
+    console.log(`a chave ${item} tem valor ${pessoa[item]}`)
 })
 
 
